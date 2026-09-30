@@ -12,7 +12,8 @@
 | `weapons/duke-shotgun-v2.png` | Shotgun viewmodel | `SHOTGUN` **2613**; shells `SHOTGUNSHELL` **2535**; world `SHOTGUNSPRITE` 28, ammo `SHOTGUNAMMO` 49 | **SUPERSEDED** — remaster replaced by v4; retained for history |
 | `weapons/duke-chaingun-v1.png` | Chaingun viewmodel | `CHAINGUN` **2536** | **PASS** |
 | `weapons/duke-rpg-v1.png` | RPG viewmodel | `RPGGUN` **2544**; muzzle flash `RPGMUZZLEFLASH` **2545** | **PASS** |
-| `weapons/duke-foot-v1.png` | Mighty Foot / melee | `KNEE` **2521**; related `FIST` **1640** | Melee kick / fist sequence |
+| `weapons/duke-foot-v2.png` (+ `duke-foot-v2-sidebyside.png`) | Mighty Foot / melee remaster | `KNEE` **2521**; related `FIST` **1640** | **PASS** — AD §2d remaster; v1 superseded |
+| `weapons/duke-foot-v1.png` | Mighty Foot / melee | `KNEE` **2521**; related `FIST` **1640** | **SUPERSEDED** — remaster replaced by v2; retained for history |
 | `enemies/duke-trooper-v1.png` | Assault Trooper | `LIZTROOP` **1680+** (`LIZTROOPRUNNING` 1681, shoot 1715, jetpack 1725, …) | PASS |
 | `enemies/duke-pigcop-v1.png` | Pig Cop | `PIGCOP` **2000+** (`PIGCOPSTAYPUT` 2001, dive 2045, dead 2060) | **PASS** |
 | `enemies/duke-octabrain-v1.png` | LIZTROOP-style enemy / Octabrain | `OCTABRAIN` **1820+** (`OCTABRAINSTAYPUT` 1821) | **PASS** |

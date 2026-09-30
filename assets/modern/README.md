@@ -36,6 +36,8 @@ assets/modern/
 | weapons/duke-pistol-v2.png | **SUPERSEDED** (replaced by pistol remaster v5; retained for history) |
 | weapons/duke-shotgun-v4.png (+ side-by-side) | **PASS** (AD §2d; `SHOTGUN` 2613; v2 superseded) |
 | weapons/duke-shotgun-v2.png | **SUPERSEDED** (replaced by shotgun remaster v4; retained for history) |
+| weapons/duke-foot-v2.png (+ side-by-side) | **PASS** (AD §2d; `KNEE` 2521 / `FIST` 1640; v1 superseded) |
+| weapons/duke-foot-v1.png | **SUPERSEDED** (replaced by foot remaster v2; retained for history) |
 | weapons/duke-chaingun-v1.png | **PASS** (AD deploy-ready) |
 | weapons/duke-rpg-v1.png | **PASS** (AD deploy-ready) |
 | enemies/duke-pigcop-v1.png | **PASS** (AD deploy-ready) |
