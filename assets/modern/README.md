@@ -34,6 +34,8 @@ assets/modern/
 | cover/*, hero/*, current PASS weapons (except explicitly superseded entries), enemies/duke-trooper-v1.png, ref/* | **PASS** (AD deploy-ready) |
 | weapons/duke-pistol-v5.png (+ side-by-side) | **PASS** (AD §2d; `FIRSTGUN` 2524+; v2 superseded) |
 | weapons/duke-pistol-v2.png | **SUPERSEDED** (replaced by pistol remaster v5; retained for history) |
+| weapons/duke-shotgun-v4.png (+ side-by-side) | **PASS** (AD §2d; `SHOTGUN` 2613; v2 superseded) |
+| weapons/duke-shotgun-v2.png | **SUPERSEDED** (replaced by shotgun remaster v4; retained for history) |
 | weapons/duke-chaingun-v1.png | **PASS** (AD deploy-ready) |
 | weapons/duke-rpg-v1.png | **PASS** (AD deploy-ready) |
 | enemies/duke-pigcop-v1.png | **PASS** (AD deploy-ready) |

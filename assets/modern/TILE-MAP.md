@@ -8,7 +8,8 @@
 |-----------|------|-----------------|-------|
 | `weapons/duke-pistol-v5.png` (+ `duke-pistol-v5-sidebyside.png`) | Pistol remaster viewmodel | `FIRSTGUN` **2524+**, reload `FIRSTGUNRELOAD` 2528; world pickup `FIRSTGUNSPRITE` 21 | **PASS FIRSTGUN 2524+** — AD §2d remaster; side-by-side included |
 | `weapons/duke-pistol-v2.png` | Pistol viewmodel | `FIRSTGUN` **2524+**, reload `FIRSTGUNRELOAD` 2528; world pickup `FIRSTGUNSPRITE` 21 | **SUPERSEDED** — remaster replaced by v5; retained for history |
-| `weapons/duke-shotgun-v2.png` | Shotgun viewmodel | `SHOTGUN` **2613**; shells `SHOTGUNSHELL` **2535**; world `SHOTGUNSPRITE` 28, ammo `SHOTGUNAMMO` 49 | |
+| `weapons/duke-shotgun-v4.png` (+ `duke-shotgun-v4-sidebyside.png`) | Shotgun remaster viewmodel | `SHOTGUN` **2613**; shells `SHOTGUNSHELL` **2535**; world `SHOTGUNSPRITE` 28, ammo `SHOTGUNAMMO` 49 | **PASS** — AD §2d remaster; v2 superseded |
+| `weapons/duke-shotgun-v2.png` | Shotgun viewmodel | `SHOTGUN` **2613**; shells `SHOTGUNSHELL` **2535**; world `SHOTGUNSPRITE` 28, ammo `SHOTGUNAMMO` 49 | **SUPERSEDED** — remaster replaced by v4; retained for history |
 | `weapons/duke-chaingun-v1.png` | Chaingun viewmodel | `CHAINGUN` **2536** | **PASS** |
 | `weapons/duke-rpg-v1.png` | RPG viewmodel | `RPGGUN` **2544**; muzzle flash `RPGMUZZLEFLASH` **2545** | **PASS** |
 | `weapons/duke-foot-v1.png` | Mighty Foot / melee | `KNEE` **2521**; related `FIST` **1640** | Melee kick / fist sequence |
