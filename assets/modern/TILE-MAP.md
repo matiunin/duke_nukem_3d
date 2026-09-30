@@ -6,7 +6,8 @@
 
 | PASS file | Role | NAMES.H base(s) | Notes |
 |-----------|------|-----------------|-------|
-| `weapons/duke-pistol-v2.png` | Pistol viewmodel | `FIRSTGUN` **2524+**, reload `FIRSTGUNRELOAD` 2528; world pickup `FIRSTGUNSPRITE` 21 | Viewmodel strip starts at 2524 |
+| `weapons/duke-pistol-v5.png` (+ `duke-pistol-v5-sidebyside.png`) | Pistol remaster viewmodel | `FIRSTGUN` **2524+**, reload `FIRSTGUNRELOAD` 2528; world pickup `FIRSTGUNSPRITE` 21 | **PASS FIRSTGUN 2524+** — AD §2d remaster; side-by-side included |
+| `weapons/duke-pistol-v2.png` | Pistol viewmodel | `FIRSTGUN` **2524+**, reload `FIRSTGUNRELOAD` 2528; world pickup `FIRSTGUNSPRITE` 21 | **SUPERSEDED** — remaster replaced by v5; retained for history |
 | `weapons/duke-shotgun-v2.png` | Shotgun viewmodel | `SHOTGUN` **2613**; shells `SHOTGUNSHELL` **2535**; world `SHOTGUNSPRITE` 28, ammo `SHOTGUNAMMO` 49 | |
 | `weapons/duke-chaingun-v1.png` | Chaingun viewmodel | `CHAINGUN` **2536** | **PASS** |
 | `weapons/duke-rpg-v1.png` | RPG viewmodel | `RPGGUN` **2544**; muzzle flash `RPGMUZZLEFLASH` **2545** | **PASS** |
