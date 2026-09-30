@@ -19,7 +19,7 @@ assets/modern/
   cover/     — launcher / skill-card (сайт), не GRP
   hero/      — маркетинговый hero still
   weapons/   — viewmodels (pistol, shotgun, mighty foot)
-  enemies/   — trooper (PASS), pigcop (WIP — awaiting AD)
+  enemies/   — trooper (PASS), pigcop (PASS)
   hud/       — fidelity bar mock + side-by-side
   ref/       — quality anchor
   TILE-MAP.md — PASS file → NAMES.H tile bases
@@ -31,6 +31,6 @@ assets/modern/
 | Файл | Статус |
 |------|--------|
 | cover/*, hero/*, weapons/*, enemies/duke-trooper-v1.png, hud/*, ref/* | **PASS** (AD deploy-ready) |
-| enemies/duke-pigcop-v1.png | **WIP** — awaiting Art Director pass |
+| enemies/duke-pigcop-v1.png | **PASS** (AD deploy-ready) |
 
 См. также `TILE-MAP.md` для привязки к тайлам `source/NAMES.H`.

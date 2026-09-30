@@ -10,7 +10,7 @@
 | `weapons/duke-shotgun-v2.png` | Shotgun viewmodel | `SHOTGUN` **2613**; shells `SHOTGUNSHELL` **2535**; world `SHOTGUNSPRITE` 28, ammo `SHOTGUNAMMO` 49 | |
 | `weapons/duke-foot-v1.png` | Mighty Foot / melee | `KNEE` **2521**; related `FIST` **1640** | Melee kick / fist sequence |
 | `enemies/duke-trooper-v1.png` | Assault Trooper | `LIZTROOP` **1680+** (`LIZTROOPRUNNING` 1681, shoot 1715, jetpack 1725, …) | PASS |
-| `enemies/duke-pigcop-v1.png` | Pig Cop | `PIGCOP` **2000+** (`PIGCOPSTAYPUT` 2001, dive 2045, dead 2060) | **WIP** — awaiting AD |
+| `enemies/duke-pigcop-v1.png` | Pig Cop | `PIGCOP` **2000+** (`PIGCOPSTAYPUT` 2001, dive 2045, dead 2060) | **PASS** |
 | `hud/hud-fidelity-v1.1.png` | HUD bar fidelity | `BOTTOMSTATUSBAR` **2462**, `DIGITALNUM` **2472**, `CROSSHAIR` **2523** | Mock / fidelity pass, not ART yet |
 | `hud/hud-fidelity-v1.1-sidebyside.png` | HUD compare | (same) | Design reference |
 | `hero/duke-hero-v2.png` | Hero marketing still | **not a tile** (site/launcher); player body `APLAYER` **1405**, `APLAYERTOP` 1400 | Site art |
