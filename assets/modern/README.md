@@ -20,8 +20,9 @@ assets/modern/
   hero/      — маркетинговый hero still
   weapons/   — viewmodels (pistol, shotgun, mighty foot, chaingun, RPG)
   enemies/   — trooper (PASS), pigcop (PASS), octabrain (PASS)
-  hud/       — DIGITALNUM + CROSSHAIR PASS refs; rejected INV/statusbar refs noted
+  hud/       — DIGITALNUM + CROSSHAIR + INV v2 PASS refs; v1/statusbar refs noted
   ref/       — quality anchor
+  ref-vanilla/inv/ — vanilla inventory crops and NN×8 tile refs
   TILE-MAP.md — PASS file → NAMES.H tile bases
   names-excerpt.md — цитаты #define (не полный GPL NAMES.H)
 ```
@@ -37,8 +38,9 @@ assets/modern/
 | enemies/duke-octabrain-v1.png | **PASS** (AD deploy-ready) |
 | hud/hud-digitalnum-v1.png | **PASS** (AD revised; `DIGITALNUM` 2472) |
 | hud/hud-crosshair-v1.png | **PASS** (AD revised; `CROSSHAIR` 2523) |
-| hud/hud-inv-icons-v1.png, hud/hud-statusbar-with-inv-v1.png | **FAIL / excluded** (AD revised; not staged) |
+| hud/hud-inv-icons-v2.png (+ `.html`, notes) | **PASS** (AD §2d; NN×8 hires of existing inventory tiles; v1 superseded) |
+| hud/hud-inv-icons-v1.png, hud/hud-statusbar-with-inv-v1.png | **FAIL / excluded** (v1 superseded; not staged) |
 
 См. также `TILE-MAP.md` для привязки к тайлам `source/NAMES.H`.
 
-**Fidelity / Alex rule:** only hires of existing DN3D assets, per AD-BRIEF §2c; the revised HUD PASS is limited to DIGITALNUM and CROSSHAIR.
+**Fidelity / Alex rule:** only hires of existing DN3D assets, per AD-BRIEF §2d; INV v2 is nearest-neighbor ×8 of the vanilla crops. v1 is superseded; the statusbar overlay remains excluded.

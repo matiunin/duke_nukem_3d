@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Duke Luck4Luck — Inventory Icons v2 (NN hires)</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    background: #0a0c10;
+    color: #c8cdd6;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  .sheet {
+    max-width: 1496px;
+    margin: 0 auto;
+    padding: 28px 28px 24px;
+    background:
+      radial-gradient(ellipse 60% 40% at 50% 0%, rgba(40,48,60,0.35), transparent 70%),
+      #0a0c10;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 18px;
+    border-bottom: 1px solid #2a3344;
+    padding-bottom: 12px;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .header h1 {
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    color: #E8C45A;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .header .meta {
+    font-size: 11px;
+    color: #6a7388;
+    letter-spacing: 0.3px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 28px 20px;
+  }
+  .cell { display: flex; flex-direction: column; gap: 8px; }
+  .label {
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    color: #c8d0dc;
+    font-weight: 700;
+  }
+  .tile {
+    font-size: 10px;
+    color: #5a6478;
+  }
+  .pair {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+  }
+  .col { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+  .well {
+    width: 152px;
+    height: 152px;
+    background: #050608;
+    border: 3px solid #c9a24a;
+    border-top-color: #e8c45a;
+    border-left-color: #d4b04a;
+    border-right-color: #8a6a20;
+    border-bottom-color: #6a5018;
+    border-radius: 2px;
+    box-shadow:
+      inset 0 4px 10px rgba(0,0,0,0.9),
+      0 0 0 1px #2a2210;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+  }
+  .well img {
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    max-width: 140px;
+    max-height: 140px;
+  }
+  .cap {
+    font-size: 10px;
+    color: #6a7388;
+    letter-spacing: 0.5px;
+  }
+  .cap.hi { color: #E8C45A; }
+  .footer {
+    margin-top: 22px;
+    font-size: 11px;
+    color: #5a6478;
+    border-top: 1px solid #2a3344;
+    padding-top: 12px;
+  }
+  .fail { color: #c07070; }
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="header">
+    <h1>HUD INV Icons v2 — VANILLA | HIRES (NN×8)</h1>
+    <div class="meta">AD-BRIEF §2d · Spriters Resource Status Bar &amp; HUD · no smooth/AI redraw</div>
+  </div>
+  <div class="grid" id="grid"></div>
+  <div class="footer">
+    <span class="fail">v1 FAIL superseded</span> (smooth illustration).
+    DIGITALNUM + CROSSHAIR stay PASS — unchanged.
+    Crops: <code>art/ref-vanilla/inv/tile-*.png</code> · sheet: <code>design/hud-inv-icons-v2.png</code>
+  </div>
+</div>
+<script>
+const ICONS = [
+  { name: 'FIRSTAID', id: 2460, w: 17, h: 12 },
+  { name: 'JETPACK',  id: 2467, w: 17, h: 17 },
+  { name: 'STEROIDS', id: 2469, w: 13, h: 15 },
+  { name: 'HOLODUKE', id: 2470, w: 11, h: 18 },
+  { name: 'ACCESS',   id: 2471, w: 11, h: 5 },
+  { name: 'BOOT',     id: 2463, w: 17, h: 14 },
+  { name: 'HEAT',     id: 2461, w: 17, h: 11 },
+  { name: 'AIRTANK',  id: 2468, w: 14, h: 15 },
+];
+const grid = document.getElementById('grid');
+for (const ic of ICONS) {
+  const cell = document.createElement('div');
+  cell.className = 'cell';
+  cell.innerHTML = `
+    <div class="label">${ic.name}</div>
+    <div class="tile">tile ${ic.id} · ${ic.w}×${ic.h}px → ×8</div>
+    <div class="pair">
+      <div class="col">
+        <div class="well"><img src="../art/ref-vanilla/inv/tile-${ic.name}.png" width="${ic.w*4}" height="${ic.h*4}" alt="${ic.name} vanilla" style="width:${ic.w*4}px;height:${ic.h*4}px" /></div>
+        <div class="cap">VANILLA ×4</div>
+      </div>
+      <div class="col">
+        <div class="well"><img src="../art/ref-vanilla/inv/tile-${ic.name}-x8.png" width="${ic.w*8}" height="${ic.h*8}" alt="${ic.name} hires" style="width:${ic.w*8}px;height:${ic.h*8}px" /></div>
+        <div class="cap hi">HIRES ×8</div>
+      </div>
+    </div>`;
+  grid.appendChild(cell);
+}
+</script>
+</body>
+</html>
