@@ -20,7 +20,7 @@ assets/modern/
   hero/      — маркетинговый hero still
   weapons/   — viewmodels (pistol, shotgun, mighty foot, chaingun, RPG)
   enemies/   — trooper (PASS), pigcop (PASS), octabrain (PASS)
-  hud/       — fidelity bar mock + side-by-side
+  hud/       — DIGITALNUM + CROSSHAIR PASS refs; rejected INV/statusbar refs noted
   ref/       — quality anchor
   TILE-MAP.md — PASS file → NAMES.H tile bases
   names-excerpt.md — цитаты #define (не полный GPL NAMES.H)
@@ -30,10 +30,15 @@ assets/modern/
 
 | Файл | Статус |
 |------|--------|
-| cover/*, hero/*, weapons/*, enemies/duke-trooper-v1.png, hud/*, ref/* | **PASS** (AD deploy-ready) |
+| cover/*, hero/*, weapons/*, enemies/duke-trooper-v1.png, ref/* | **PASS** (AD deploy-ready) |
 | weapons/duke-chaingun-v1.png | **PASS** (AD deploy-ready) |
 | weapons/duke-rpg-v1.png | **PASS** (AD deploy-ready) |
 | enemies/duke-pigcop-v1.png | **PASS** (AD deploy-ready) |
 | enemies/duke-octabrain-v1.png | **PASS** (AD deploy-ready) |
+| hud/hud-digitalnum-v1.png | **PASS** (AD revised; `DIGITALNUM` 2472) |
+| hud/hud-crosshair-v1.png | **PASS** (AD revised; `CROSSHAIR` 2523) |
+| hud/hud-inv-icons-v1.png, hud/hud-statusbar-with-inv-v1.png | **FAIL / excluded** (AD revised; not staged) |
 
 См. также `TILE-MAP.md` для привязки к тайлам `source/NAMES.H`.
+
+**Fidelity / Alex rule:** only hires of existing DN3D assets, per AD-BRIEF §2c; the revised HUD PASS is limited to DIGITALNUM and CROSSHAIR.

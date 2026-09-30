@@ -14,8 +14,11 @@
 | `enemies/duke-trooper-v1.png` | Assault Trooper | `LIZTROOP` **1680+** (`LIZTROOPRUNNING` 1681, shoot 1715, jetpack 1725, …) | PASS |
 | `enemies/duke-pigcop-v1.png` | Pig Cop | `PIGCOP` **2000+** (`PIGCOPSTAYPUT` 2001, dive 2045, dead 2060) | **PASS** |
 | `enemies/duke-octabrain-v1.png` | LIZTROOP-style enemy / Octabrain | `OCTABRAIN` **1820+** (`OCTABRAINSTAYPUT` 1821) | **PASS** |
-| `hud/hud-fidelity-v1.1.png` | HUD bar fidelity | `BOTTOMSTATUSBAR` **2462**, `DIGITALNUM` **2472**, `CROSSHAIR` **2523** | Mock / fidelity pass, not ART yet |
-| `hud/hud-fidelity-v1.1-sidebyside.png` | HUD compare | (same) | Design reference |
+| `hud/hud-digitalnum-v1.png` | Digital LED number strip | `DIGITALNUM` **2472** | **PASS** — revised HUD pack; hires existing DN3D asset per §2c |
+| `hud/hud-crosshair-v1.png` | Crosshair reference | `CROSSHAIR` **2523** | **PASS** — revised HUD pack; hires existing DN3D asset per §2c |
+| `hud/hud-inv-icons-v1.png` | Inventory icon strip | `FIRSTAID_ICON` **2460**, `HEAT_ICON` **2461**, `BOOT_ICON` **2463**, `JETPACK_ICON` **2467**, `AIRTANK_ICON` **2468**, `STEROIDS_ICON` **2469**, `HOLODUKE_ICON` **2470**, `ACCESS_ICON` **2471** | **FAIL / excluded** by revised AD; not committed |
+| `hud/hud-statusbar-with-inv-v1.png` | Statusbar + inventory overlay | `BOTTOMSTATUSBAR` **2462** | **FAIL / excluded** by revised AD; not committed |
+| `hud/hud-fidelity-v1.1.png`, `hud/hud-fidelity-v1.1-sidebyside.png` | Superseded HUD composite references | `BOTTOMSTATUSBAR` **2462**, `DIGITALNUM` **2472**, `CROSSHAIR` **2523** | Legacy reference; not current revised HUD PASS |
 | `hero/duke-hero-v2.png` | Hero marketing still | **not a tile** (site/launcher); player body `APLAYER` **1405**, `APLAYERTOP` 1400 | Site art |
 | `cover/launcher-cover.png` | Launcher / skill card | **not GRP** — site asset | Deploy: `design/deploy/` |
 | `cover/duke-cover-v2.png` | Full cover | site / marketing | |
