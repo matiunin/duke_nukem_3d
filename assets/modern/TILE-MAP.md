@@ -8,9 +8,12 @@
 |-----------|------|-----------------|-------|
 | `weapons/duke-pistol-v2.png` | Pistol viewmodel | `FIRSTGUN` **2524+**, reload `FIRSTGUNRELOAD` 2528; world pickup `FIRSTGUNSPRITE` 21 | Viewmodel strip starts at 2524 |
 | `weapons/duke-shotgun-v2.png` | Shotgun viewmodel | `SHOTGUN` **2613**; shells `SHOTGUNSHELL` **2535**; world `SHOTGUNSPRITE` 28, ammo `SHOTGUNAMMO` 49 | |
+| `weapons/duke-chaingun-v1.png` | Chaingun viewmodel | `CHAINGUN` **2536** | **PASS** |
+| `weapons/duke-rpg-v1.png` | RPG viewmodel | `RPGGUN` **2544**; muzzle flash `RPGMUZZLEFLASH` **2545** | **PASS** |
 | `weapons/duke-foot-v1.png` | Mighty Foot / melee | `KNEE` **2521**; related `FIST` **1640** | Melee kick / fist sequence |
 | `enemies/duke-trooper-v1.png` | Assault Trooper | `LIZTROOP` **1680+** (`LIZTROOPRUNNING` 1681, shoot 1715, jetpack 1725, …) | PASS |
 | `enemies/duke-pigcop-v1.png` | Pig Cop | `PIGCOP` **2000+** (`PIGCOPSTAYPUT` 2001, dive 2045, dead 2060) | **PASS** |
+| `enemies/duke-octabrain-v1.png` | LIZTROOP-style enemy / Octabrain | `OCTABRAIN` **1820+** (`OCTABRAINSTAYPUT` 1821) | **PASS** |
 | `hud/hud-fidelity-v1.1.png` | HUD bar fidelity | `BOTTOMSTATUSBAR` **2462**, `DIGITALNUM` **2472**, `CROSSHAIR` **2523** | Mock / fidelity pass, not ART yet |
 | `hud/hud-fidelity-v1.1-sidebyside.png` | HUD compare | (same) | Design reference |
 | `hero/duke-hero-v2.png` | Hero marketing still | **not a tile** (site/launcher); player body `APLAYER` **1405**, `APLAYERTOP` 1400 | Site art |
