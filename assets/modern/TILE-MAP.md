@@ -14,6 +14,7 @@
 | `weapons/duke-chaingun-v1.png` | Chaingun viewmodel | `CHAINGUN` **2536** | **SUPERSEDED** — remaster replaced by v6.2; retained for history |
 | `weapons/duke-rpg-v2.png` (+ `duke-rpg-v2-sidebyside.png`) | RPG remaster viewmodel | `RPGGUN` **2544**; muzzle flash `RPGMUZZLEFLASH` **2545** | **PASS RPGGUN 2544 / RPGMUZZLEFLASH** — AD §2d remaster; v1 superseded |
 | `weapons/duke-rpg-v1.png` | RPG viewmodel | `RPGGUN` **2544**; muzzle flash `RPGMUZZLEFLASH` **2545** | **SUPERSEDED** — remaster replaced by v2; retained for history |
+| `weapons/duke-pipebomb-v31.png` (+ `duke-pipebomb-v31-sidebyside.png`) | Pipebomb remaster viewmodel / remote | `HANDTHROW` **2573**; `HANDREMOTE` **2570**; world `HEAVYHBOMB` **26** | **PASS HANDTHROW / HANDREMOTE / HEAVYHBOMB** — AD §2d remaster; v1/v2/v3 superseded (not staged) |
 | `weapons/duke-foot-v2.png` (+ `duke-foot-v2-sidebyside.png`) | Mighty Foot / melee remaster | `KNEE` **2521**; related `FIST` **1640** | **PASS** — AD §2d remaster; v1 superseded |
 | `weapons/duke-foot-v1.png` | Mighty Foot / melee | `KNEE` **2521**; related `FIST` **1640** | **SUPERSEDED** — remaster replaced by v2; retained for history |
 | `enemies/duke-trooper-v1.png` | Assault Trooper | `LIZTROOP` **1680+** (`LIZTROOPRUNNING` 1681, shoot 1715, jetpack 1725, …) | PASS |

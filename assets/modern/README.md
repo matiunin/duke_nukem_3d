@@ -18,7 +18,7 @@
 assets/modern/
   cover/     — launcher / skill-card (сайт), не GRP
   hero/      — маркетинговый hero still
-  weapons/   — viewmodels (pistol v5, shotgun, mighty foot, chaingun v6.2, RPG v2)
+  weapons/   — viewmodels (pistol v5, shotgun, mighty foot, chaingun v6.2, RPG v2, pipebomb v3.1)
   enemies/   — trooper (PASS), pigcop (PASS), octabrain (PASS)
   hud/       — DIGITALNUM + CROSSHAIR + INV v2 PASS refs; v1/statusbar refs noted
   ref/       — quality anchor
@@ -42,6 +42,7 @@ assets/modern/
 | weapons/duke-chaingun-v1.png | **SUPERSEDED** (replaced by chaingun remaster v6.2; retained for history) |
 | weapons/duke-rpg-v2.png (+ side-by-side) | **PASS** (AD §2d; `RPGGUN` 2544 / `RPGMUZZLEFLASH`; v1 superseded) |
 | weapons/duke-rpg-v1.png | **SUPERSEDED** (replaced by RPG remaster v2; retained for history) |
+| weapons/duke-pipebomb-v31.png (+ side-by-side) | **PASS** (AD §2d; `HANDTHROW` 2573 / `HANDREMOTE` 2570 / `HEAVYHBOMB` 26; v1/v2/v3 superseded, not staged) |
 | enemies/duke-pigcop-v1.png | **PASS** (AD deploy-ready) |
 | enemies/duke-octabrain-v1.png | **PASS** (AD deploy-ready) |
 | hud/hud-digitalnum-v1.png | **PASS** (AD revised; `DIGITALNUM` 2472) |
