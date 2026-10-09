@@ -39,3 +39,14 @@
 1. Live game: 8-bit tiles in `DUKE3D.GRP` / wasm `vendor/index.data`.
 2. This folder: staging only.
 3. Next engineering step: ART tile replacement or hires remap keyed by the IDs above.
+
+## fx (VFX sprites) — PASS
+Files in `fx/`. Method: deterministic procedural upscale of the vanilla tile; silhouette/alpha from the vanilla mask, palette/brightness curve from vanilla; no generative models (AD-BRIEF §2d). Each has `-sidebyside` and `-crop100` companions (see `fx/NOTES.md`).
+
+| File | NAMES.H tile | Status |
+|---|---|---|
+| `fx/explosion2-f01-v3.png` … `explosion2-f14-v3.png` (f05 = canonical frame of the series; `explosion2-series-v3-contact.png`, `explosion2-series-vanilla-contact.png`, `explosion2-series-v3-meta.json`) | `EXPLOSION2` **1890** (frames 1890–1903) | **PASS** |
+| `fx/shotspark1-v3.png` | `SHOTSPARK1` (NAMES.H define 2595; remastered tile is frame 1 = **2596**) | **PASS** |
+| `fx/smallsmoke-v2.png` | `SMALLSMOKE` **2329** | **PASS** |
+| `fx/shrinkspark-v2.png` | `SHRINKSPARK` **1646** | **PASS** |
+| `fx/fire-v2.png` | `FIRE` **2271** | **PASS** |
