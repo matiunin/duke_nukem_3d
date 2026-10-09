@@ -12,7 +12,8 @@
 | `weapons/duke-shotgun-v2.png` | Shotgun viewmodel | `SHOTGUN` **2613**; shells `SHOTGUNSHELL` **2535**; world `SHOTGUNSPRITE` 28, ammo `SHOTGUNAMMO` 49 | **SUPERSEDED** — remaster replaced by v4; retained for history |
 | `weapons/duke-chaingun-v62.png` (+ `duke-chaingun-v62-sidebyside.png`, `duke-chaingun-v62-crop-knuckle.png`) | Chaingun remaster viewmodel | `CHAINGUN` **2536** (vanilla tile ref TILES009_232) | **PASS CHAINGUN 2536** — AD §2d remaster; v1 superseded |
 | `weapons/duke-chaingun-v1.png` | Chaingun viewmodel | `CHAINGUN` **2536** | **SUPERSEDED** — remaster replaced by v6.2; retained for history |
-| `weapons/duke-rpg-v1.png` | RPG viewmodel | `RPGGUN` **2544**; muzzle flash `RPGMUZZLEFLASH` **2545** | **PASS** |
+| `weapons/duke-rpg-v2.png` (+ `duke-rpg-v2-sidebyside.png`) | RPG remaster viewmodel | `RPGGUN` **2544**; muzzle flash `RPGMUZZLEFLASH` **2545** | **PASS RPGGUN 2544 / RPGMUZZLEFLASH** — AD §2d remaster; v1 superseded |
+| `weapons/duke-rpg-v1.png` | RPG viewmodel | `RPGGUN` **2544**; muzzle flash `RPGMUZZLEFLASH` **2545** | **SUPERSEDED** — remaster replaced by v2; retained for history |
 | `weapons/duke-foot-v2.png` (+ `duke-foot-v2-sidebyside.png`) | Mighty Foot / melee remaster | `KNEE` **2521**; related `FIST` **1640** | **PASS** — AD §2d remaster; v1 superseded |
 | `weapons/duke-foot-v1.png` | Mighty Foot / melee | `KNEE` **2521**; related `FIST` **1640** | **SUPERSEDED** — remaster replaced by v2; retained for history |
 | `enemies/duke-trooper-v1.png` | Assault Trooper | `LIZTROOP` **1680+** (`LIZTROOPRUNNING` 1681, shoot 1715, jetpack 1725, …) | PASS |
