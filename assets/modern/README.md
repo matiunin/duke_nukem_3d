@@ -31,7 +31,7 @@ assets/modern/
 
 | Файл | Статус |
 |------|--------|
-| cover/*, hero/*, current PASS weapons (except explicitly superseded entries), enemies/duke-trooper-v1.png, ref/* | **PASS** (AD deploy-ready) |
+| cover/*, hero/*, current PASS weapons (except explicitly superseded entries), ref/* | **PASS** (AD deploy-ready) |
 | weapons/duke-pistol-v5.png (+ side-by-side) | **PASS** (AD §2d; `FIRSTGUN` 2524+; v2 superseded) |
 | weapons/duke-pistol-v2.png | **SUPERSEDED** (replaced by pistol remaster v5; retained for history) |
 | weapons/duke-shotgun-v4.png (+ side-by-side) | **PASS** (AD §2d; `SHOTGUN` 2613; v2 superseded) |
@@ -43,8 +43,11 @@ assets/modern/
 | weapons/duke-rpg-v2.png (+ side-by-side) | **PASS** (AD §2d; `RPGGUN` 2544 / `RPGMUZZLEFLASH`; v1 superseded) |
 | weapons/duke-rpg-v1.png | **SUPERSEDED** (replaced by RPG remaster v2; retained for history) |
 | weapons/duke-pipebomb-v31.png (+ side-by-side) | **PASS** (AD §2d; `HANDTHROW` 2573 / `HANDREMOTE` 2570 / `HEAVYHBOMB` 26; v1/v2/v3 superseded, not staged) |
-| enemies/duke-pigcop-v1.png | **PASS** (AD deploy-ready) |
-| enemies/duke-octabrain-v1.png | **PASS** (AD deploy-ready) |
+| enemies/duke-trooper-v21.png (+ side-by-side, overlay-iou) | **PASS** (AD §2d hires remaster of vanilla tiles; `LIZTROOP` 1680+; v1 superseded) |
+| enemies/duke-pigcop-v21.png (+ side-by-side, overlay-iou) | **PASS** (AD §2d hires remaster of vanilla tiles; `PIGCOP` 2000+; v1 superseded) |
+| enemies/duke-octabrain-v1.png (+ side-by-side, overlay-iou) | **PASS** (AD §2d hires remaster of vanilla tiles, IoU 0.962; `OCTABRAIN` 1820+; the earlier octabrain v1 was replaced by the remaster under the same filename) |
+| enemies/duke-commander-v62.png (+ side-by-side, overlay-iou) | **PASS** (AD §2d hires remaster of vanilla tiles; `COMMANDER` 1920+) |
+| enemies/duke-trooper-v1.png, enemies/duke-pigcop-v1.png | **SUPERSEDED** (replaced by trooper v2.1 / pigcop v2.1; retained for history) |
 | hud/hud-digitalnum-v1.png | **PASS** (AD revised; `DIGITALNUM` 2472) |
 | hud/hud-crosshair-v1.png | **PASS** (AD revised; `CROSSHAIR` 2523) |
 | hud/hud-inv-icons-v2.png (+ `.html`, notes) | **PASS** (AD §2d; NN×8 hires of existing inventory tiles; v1 superseded) |

@@ -17,9 +17,12 @@
 | `weapons/duke-pipebomb-v31.png` (+ `duke-pipebomb-v31-sidebyside.png`) | Pipebomb remaster viewmodel / remote | `HANDTHROW` **2573**; `HANDREMOTE` **2570**; world `HEAVYHBOMB` **26** | **PASS HANDTHROW / HANDREMOTE / HEAVYHBOMB** — AD §2d remaster; v1/v2/v3 superseded (not staged) |
 | `weapons/duke-foot-v2.png` (+ `duke-foot-v2-sidebyside.png`) | Mighty Foot / melee remaster | `KNEE` **2521**; related `FIST` **1640** | **PASS** — AD §2d remaster; v1 superseded |
 | `weapons/duke-foot-v1.png` | Mighty Foot / melee | `KNEE` **2521**; related `FIST` **1640** | **SUPERSEDED** — remaster replaced by v2; retained for history |
-| `enemies/duke-trooper-v1.png` | Assault Trooper | `LIZTROOP` **1680+** (`LIZTROOPRUNNING` 1681, shoot 1715, jetpack 1725, …) | PASS |
-| `enemies/duke-pigcop-v1.png` | Pig Cop | `PIGCOP` **2000+** (`PIGCOPSTAYPUT` 2001, dive 2045, dead 2060) | **PASS** |
-| `enemies/duke-octabrain-v1.png` | LIZTROOP-style enemy / Octabrain | `OCTABRAIN` **1820+** (`OCTABRAINSTAYPUT` 1821) | **PASS** |
+| `enemies/duke-trooper-v21.png` (+ sidebyside, overlay-iou) | Assault Trooper remaster | `LIZTROOP` **1680+** (`LIZTROOPRUNNING` 1681, shoot 1715, jetpack 1725, …) | **PASS LIZTROOP 1680+** — AD §2d hires remaster of vanilla tiles; v1 superseded |
+| `enemies/duke-trooper-v1.png` | Assault Trooper | `LIZTROOP` **1680+** | **SUPERSEDED** — replaced by v2.1; retained for history |
+| `enemies/duke-pigcop-v21.png` (+ sidebyside, overlay-iou) | Pig Cop remaster | `PIGCOP` **2000+** (`PIGCOPSTAYPUT` 2001, dive 2045, dead 2060) | **PASS PIGCOP 2000+** — AD §2d hires remaster of vanilla tiles; v1 superseded |
+| `enemies/duke-pigcop-v1.png` | Pig Cop | `PIGCOP` **2000+** | **SUPERSEDED** — replaced by v2.1; retained for history |
+| `enemies/duke-octabrain-v1.png` (+ sidebyside, overlay-iou) | Octabrain remaster | `OCTABRAIN` **1820+** (`OCTABRAINSTAYPUT` 1821) | **PASS OCTABRAIN 1820+** — AD §2d hires remaster of vanilla tiles (IoU 0.962); replaces the earlier octabrain v1 under the same filename |
+| `enemies/duke-commander-v62.png` (+ sidebyside, overlay-iou) | Assault Commander remaster | `COMMANDER` **1920+** (`COMMANDERSTAYPUT` 1921) | **PASS COMMANDER 1920+** — AD §2d hires remaster of vanilla tiles (v6.2) |
 | `hud/hud-digitalnum-v1.png` | Digital LED number strip | `DIGITALNUM` **2472** | **PASS** — revised HUD pack; hires existing DN3D asset per §2c |
 | `hud/hud-crosshair-v1.png` | Crosshair reference | `CROSSHAIR` **2523** | **PASS** — revised HUD pack; hires existing DN3D asset per §2c |
 | `hud/hud-inv-icons-v2.png` (+ `.html`, notes) | Inventory icon strip | `FIRSTAID_ICON` **2460**, `HEAT_ICON` **2461**, `BOOT_ICON` **2463**, `JETPACK_ICON` **2467**, `AIRTANK_ICON` **2468**, `STEROIDS_ICON` **2469**, `HOLODUKE_ICON` **2470**, `ACCESS_ICON` **2471** (icon range **2460–2471**, excluding `BOTTOMSTATUSBAR` 2462) | **PASS v2** — nearest-neighbor ×8 (`ref-vanilla/inv/tile-*.png`); v1 superseded |
